@@ -12,3 +12,4 @@ install:
 script:
   - pycodestyle src/*py --ignore=E501
   - py.test src/*py
+  - cov=handler

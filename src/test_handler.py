@@ -3,6 +3,7 @@ import handler
 import json
 from pytest_mock import mocker
 
+
 def test_geohash_success():
     assert handler.geohash(37.421542, -122.085589, b'2005-05-26-10458.68') == {'latitude': 37.857713, 'longitude': -122.544543}
 

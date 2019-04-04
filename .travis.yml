@@ -10,6 +10,7 @@ python:
 install:
   - pip install -r requirements_dev.txt
 script:
+  - py.test src/*py --cov=handler
   - pycodestyle src/*py --ignore=E501
-  - py.test src/*py
-  - cov=handler
+after_success:
+  - coveralls

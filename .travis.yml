@@ -1,9 +1,9 @@
 language: python
 env:
   aws:
-    - ACCESS_KEY=AKIA5YQMBBBRBUOEV743
-    - SECRET_ACCESS_KEY=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
-    - REGION=aws-default-region
+    - ACCESS=AKIA5YQMBBBRBUOEV743
+    - SECRET=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
+    - REGION=us-east-1
 python:
   # - "3.3"
   # - "3.4"

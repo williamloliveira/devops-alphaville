@@ -1,9 +1,4 @@
 language: python
-env:
-  aws:
-    - ACCESS=AKIA5YQMBBBRBUOEV743
-    - SECRET=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
-    - REGION=us-east-1
 python:
   # - "3.3"
   # - "3.4"
